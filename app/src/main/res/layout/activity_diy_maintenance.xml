@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/offwhite">
+
+    <!-- Add the top right image view -->
+    <ImageView
+        android:id="@+id/topRightImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_right" />
+
+    <!-- Add the bottom left image view -->
+    <ImageView
+        android:id="@+id/bottomLeftImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bottom_left" />
+    <!-- activity_diy_maintenance.xml -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".DIYMaintenanceActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIY Maintenance Guides"
+            android:textSize="40sp"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="170dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:layout_gravity="start"/>
+
+        <!-- List of available DIY maintenance guides -->
+        <ListView
+            android:id="@+id/diyGuidesListView"
+            android:layout_width="311dp"
+            android:layout_height="540dp"
+            android:layout_weight="1"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

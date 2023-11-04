@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">VWolt</string>
+    <!-- res/values/strings.xml -->
+    <!-- res/values/strings.xml -->
+        <string-array name="ev_make_array">
+            <item>Select Make</item>
+            <item>Volkswagen</item>
+            <item>Skoda</item>
+            <item>Others</item>
+        </string-array>
+
+        <string-array name="volkswagen_models">
+            <item>Select Model</item>
+            <item>Volkswagen ID.3</item>
+            <item>Volkswagen ID.4</item>
+            <item>Volkswagen ID.BUZZ</item>
+            <item>Volkswagen ID.CROZZ</item>
+            <item>Volkswagen e-Golf</item>
+        </string-array>
+
+        <string-array name="skoda_models">
+            <item>Select Model</item>
+            <item>Skoda Enyaq iV</item>
+            <item>Skoda Citigo e iV</item>
+            <item>Skoda Vision iV</item>
+            <item>Skoda Octavia iV</item>
+            <item>Skoda Superb iV</item>
+        </string-array>
+
+    <string-array name="others">
+        <item>Select Model</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="service_center_array">
+        <item>Select Center</item>
+        <item>Service Center 1</item>
+        <item>Service Center 2</item>
+        <item>Service Center 3</item>
+    </string-array>
+
+
+
+</resources>
